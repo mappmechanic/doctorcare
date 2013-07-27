@@ -13,11 +13,10 @@
 </head>
 <body>
     <a href="../index.html">Back</a>
-    <div data-role="view" data-layout="layout" id="homeView">
-            <img src="images/doctors.jpg" id="doctorsImage">
-            <br><br>
+    <div data-role="view" data-layout="layout" id="homeView" data-stretch="true">
             <form>
                 <ul data-role="listview" id="postQuery">
+                    <li><img src="images/doctors.jpg" id="doctorsImage"><br><br></li>
                     <li><textarea id="queryTxtBox" rows="10" placeholder="Enter Your Problem Here..."></textarea></li>
                     <li><a data-role="button" id="postQueryBtn">POST YOUR QUERY</a></li>
                 </ul>
